@@ -1,4 +1,4 @@
-"""Rock paper scissors, by ChronosWithA-K, coded for fun"""
+"""Rock paper scissors, by ChronosWithA-K, coded for fun."""
 import random # allows for randomized choices / values
 import os # allows for clear()
 
