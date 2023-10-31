@@ -31,7 +31,7 @@ def player_lose():
 def player_win():
     """Lets the player play again if they win."""
     global play_again
-    play_again = input(f"""\nYou won (you chose {choice} and your opponent chose \
+    play_again = input(f"""\nYou won (you chose {choice} and your opponent chose\
  {opponent_response})! Do you want to play again (yes / no)? """)
     while play_again not in ('yes', 'no'):
         play_again = input("\nThat is not a valid input. Do you want to play again (yes / no)? ")
