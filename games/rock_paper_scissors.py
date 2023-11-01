@@ -1,6 +1,6 @@
 """Rock paper scissors, by ChronosWithA-K, coded for fun."""
-import random # allows for randomized choices / values
-import os # allows for clear()
+import random  # allows for randomized choices / values
+import os  # allows for clear()
 
 responses = ['rock', 'paper', 'scissors']
 valid_responses = ['rock', 'paper', 'scissors']
